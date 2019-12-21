@@ -3,7 +3,7 @@
 Package.describe({
   summary: 'Meteor sign up and sign in templates core package.',
   version: '1.14.2',
-  name: 'useraccounts:core',
+  name: 'xpressabhi:meteor-useraccounts',
   git: 'https://github.com/meteor-useraccounts/core.git',
 });
 
