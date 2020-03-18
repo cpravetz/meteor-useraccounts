@@ -3,7 +3,7 @@
 Package.describe({
   summary: 'Meteor sign up and sign in templates core package.',
   version: '1.14.3',
-  name: 'xpressabhi:meteor-useraccounts',
+  name: 'useraccounts:core',
   git: 'https://github.com/xpressabhi/meteor-useraccounts.git',
 });
 
@@ -21,8 +21,7 @@ Package.onUse(function(api) {
   api.use([
     'blaze',
     'reactive-dict',
-    'templating',
-    'jquery'
+    'templating'
   ], 'client');
 
   api.use([
