@@ -2,9 +2,9 @@
 
 Package.describe({
   summary: 'Meteor sign up and sign in templates core package.',
-  version: '1.14.3',
-  name: 'useraccounts:core',
-  git: 'https://github.com/xpressabhi/meteor-useraccounts.git',
+  version: '1.15.0',
+  name: 'seakaytee:ua-core',
+  git: 'https://github.com/cpravetz/meteor-useraccounts.git',
 });
 
 Package.onUse(function(api) {
@@ -25,7 +25,7 @@ Package.onUse(function(api) {
   ], 'client');
 
   api.use([
-    'http'
+    'fetch'
   ], 'server');
 
   api.imply([
@@ -78,7 +78,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('useraccounts:core@1.14.2');
+  api.use('seakaytee:ua-core@1.15.0');
 
   api.use([
     'accounts-password',
